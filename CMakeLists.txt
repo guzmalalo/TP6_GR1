@@ -8,3 +8,6 @@ add_executable(TP5_exo1 exo1.c)
 
 # Executable exo 2
 add_executable(TP5_exo2 exo2.c)
+
+# Executable exo 3
+add_executable(TP5_exo3 exo3.c)
