@@ -6,7 +6,7 @@
  */
 int main(){
     // Déclaration
-    int a, b, temp;
+    int a, b;
 
     // Initialisation de a et b
     printf("Rentrez la valeur de a : ");
@@ -19,13 +19,20 @@ int main(){
     printf("Avant\n");
     printf("a = %d b = %d \n", a, b);
 
-    //swap
-    temp = a;
-    a=b;
-    b=temp;
+    // swap
+    swap(&a,&b);
 
+    //
     printf("Apres\n");
     printf("a = %d b = %d \n", a, b);
 
     return 0;
+}
+
+void swap(int* a, int* b){
+    int temp;
+    temp = *a;
+    *a=*b;
+    *b=temp;
+
 }
