@@ -15,4 +15,7 @@ add_executable(TP5_exo3 exo3.c)
 # Executable exo 4
 add_executable(TP5_exo4 exo4.c)
 
+# Executable exo 5
+add_executable(TP5_exo5 exo5.c)
+
 
